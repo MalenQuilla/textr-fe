@@ -1,0 +1,74 @@
+#menu-btn {
+    width: 100%;
+    background-color: #23272f;
+    border-color: #23272f;
+    text-align: left;
+}
+
+#upload-form {
+    background-color: #23272f;
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+#search-bar {
+    background-color: #444950;
+    color: whitesmoke;
+    border-color: #444950;
+}
+
+#menu-btn:hover, #upload-form:hover {
+    background-color: black;
+}
+
+#upload-form:focus, #search-bar:focus {
+    box-shadow: 0 0 0 #444950;
+}
+
+#rounded-corner {
+    height: 90%;
+    width: 95%;
+    border-radius: 7px;
+    background: black;
+    margin-top: 5%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #444950;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+
+
+#home-container {
+    padding: 25px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    animation-name: home;
+    animation-duration: 3s;
+    background: #23272f;
+}
+
+@keyframes home {
+    from {
+        background: black;
+    }
+    to {
+        background: #23272f;
+    }
+}

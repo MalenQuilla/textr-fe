@@ -1,0 +1,17 @@
+#login-form {
+    background-color: black;
+    color: white;
+    border-color: #23272f;
+    margin: 2px;
+    transition-duration: 2s;
+}
+
+#login-form:hover {
+    background-color: #23272f;
+    border-color: white;
+}
+
+#login-form:focus {
+    box-shadow: 0 0 0 white;
+    border-color: white;
+}
