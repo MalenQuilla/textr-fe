@@ -1,6 +1,6 @@
 # Textr-fe
 
-Front end for Ulake Textr cannot run on independent Textr backend
+Front-end for Ulake Textr backend, cannot run on independent Textr backend.
 
 # Getting Started with Create React Test
 
