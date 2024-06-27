@@ -1,3 +1,7 @@
+# Textr-fe
+
+Front-end for Ulake Textr backend, cannot run on independent Textr backend.
+
 # Getting Started with Create React Test
 
 This project was bootstrapped with [Create React Test](https://github.com/facebook/create-react-app).
