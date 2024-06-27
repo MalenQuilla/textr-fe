@@ -9,6 +9,7 @@ export function ButtonLoading() {
 
     return (
         <div style={{
+            padding: '5px',
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',

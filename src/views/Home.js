@@ -74,7 +74,7 @@ function Home() {
                     <Nav className="flex-column">
                         <Form onSubmit={handleSubmit(onFileUpload)} style={{marginBottom: "10%"}}>
                             <Form.Control type="file" {...register("file")} id='upload-form'/>
-                            {isUploading ? <Button id='upload-form' style={{width: '100%'}}><ButtonLoading/></Button> :
+                            {isUploading ? <Button id='upload-form'><ButtonLoading/></Button> :
                                 <Form.Control type="submit" value="Upload" id='upload-form' disabled={isUploading}/>}
                         </Form>
                         <Link to="/home/files">
